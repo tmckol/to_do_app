@@ -29,7 +29,7 @@ DEBUG_PROPAGATE_EXCEPTIONS = True
 DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
 
-ALLOWED_HOSTS = ['to-do-app-pydj.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
